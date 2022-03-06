@@ -8,6 +8,7 @@ import (
 	"os"
 )
 
+//自定义log逻辑
 var log *stlog.Logger
 
 //此日志系统是可以接收用户发来的post请求，并把post请求里面的内容写入到log里面。
